@@ -25,7 +25,7 @@ export default function Home() {
     </h1>
 
     <p className="text-lg text-blue-300 mb-6">
-      Aspiring Software Developer
+      Aspiring Software Developer/ Cybersecurity
     </p>
 
     {/* RESUME BUTTON */}
