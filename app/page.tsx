@@ -161,6 +161,66 @@ export default function Home() {
 
   </div>
 </motion.section>
+      {/* ================= EXPERIENCE ================= */}
+<motion.section
+  className="max-w-6xl mx-auto px-8 mt-32"
+  initial={{ opacity: 0, y: 40 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.8 }}
+>
+  <h2 className="text-3xl font-bold text-center text-blue-400 mb-14">
+    Experience
+  </h2>
+
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+
+    {/* Cyber Crew Lab */}
+    <motion.div
+      whileHover={{ scale: 1.05, rotateX: 5, rotateY: -5 }}
+      transition={{ type: "spring", stiffness: 120 }}
+      className="bg-gradient-to-br from-purple-500/20 to-blue-500/20 
+                 border border-purple-400/30 rounded-3xl p-8 
+                 shadow-xl hover:shadow-purple-500/40 backdrop-blur-xl"
+    >
+      <h3 className="text-2xl font-semibold text-purple-300 mb-2">
+        Cyber Crew Lab
+      </h3>
+      <p className="text-sm text-gray-400 mb-4">
+        Intern · Current
+      </p>
+
+      <ul className="text-gray-300 space-y-2">
+        <li>🔐 Working on cybersecurity concepts and secure systems</li>
+        <li>🛡 Exploring data protection and security practices</li>
+        <li>⚙ Hands-on learning with real-world security use cases</li>
+      </ul>
+    </motion.div>
+
+    {/* Smart City Lab */}
+    <motion.div
+      whileHover={{ scale: 1.05, rotateX: 5, rotateY: 5 }}
+      transition={{ type: "spring", stiffness: 120 }}
+      className="bg-gradient-to-br from-cyan-500/20 to-emerald-500/20 
+                 border border-cyan-400/30 rounded-3xl p-8 
+                 shadow-xl hover:shadow-cyan-500/40 backdrop-blur-xl"
+    >
+      <h3 className="text-2xl font-semibold text-cyan-300 mb-2">
+        Smart City Lab
+      </h3>
+      <p className="text-sm text-gray-400 mb-4">
+        Intern · Current
+      </p>
+
+      <ul className="text-gray-300 space-y-2">
+        <li>🏙 Working on smart city technology concepts</li>
+        <li>📊 Understanding real-world urban digital solutions</li>
+        <li>🤝 Collaborating in lab-based project environments</li>
+      </ul>
+    </motion.div>
+
+  </div>
+</motion.section>
+
 
 
       {/* SKILLS */}
