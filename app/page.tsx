@@ -88,8 +88,8 @@ export default function Home() {
   >
     <p className="text-lg text-gray-200 leading-relaxed">
       I am a motivated Computer Science student with a strong interest in
-      software development, artificial intelligence, natural language
-      processing and cybersecurity. I enjoy building real-world projects that combine logic,
+      Software Development, Artificial Intelligence, Natural Language
+      Processing and CyberSecurity. I enjoy building real-world projects that combine logic,
       creativity, and technology. Through continuous learning and hands-on
       experience, I aim to grow as a skilled developer and contribute to
       innovative solutions.
@@ -469,7 +469,7 @@ export default function Home() {
   </h2>
 
   <p className="text-gray-300 mb-10 text-lg">
-    Feel free to reach out for opportunities, collaborations, or queries.
+    Feel free to reach out for opportunities, or queries.
   </p>
 
   <div className="space-y-4 text-lg">
