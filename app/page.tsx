@@ -162,6 +162,31 @@ export default function Home() {
   </div>
 </motion.section>
       {/* ================= EXPERIENCE ================= */}
+      {/* IIIT Hyderabad Research Internship */}
+<motion.div
+  whileHover={{ scale: 1.05 }}
+  className="bg-gradient-to-br from-indigo-500/20 to-violet-500/20
+             border border-indigo-400/30 rounded-3xl p-8
+             shadow-xl hover:shadow-indigo-500/40
+             backdrop-blur-xl transition-all duration-300"
+>
+  <h3 className="text-2xl font-semibold text-indigo-300 mb-2">
+    Research Intern – IIIT Hyderabad
+  </h3>
+
+  <p className="text-sm text-gray-400 mb-4">
+    Natural Language Processing (NLP) & Language Technologies Research Centre (LTRC)
+    <br />
+    Current
+  </p>
+
+  <ul className="text-gray-300 space-y-2">
+    <li>🔹 Contributing to research-oriented NLP tasks and language technologies.</li>
+    <li>🔹 Exploring machine learning and speech/language processing techniques.</li>
+    <li>🔹 Working on practical research problems under expert guidance.</li>
+    <li>🔹 Enhancing analytical and problem-solving skills through hands-on projects.</li>
+  </ul>
+</motion.div>
 <motion.section
   className="max-w-6xl mx-auto px-8 mt-32"
   initial={{ opacity: 0, y: 40 }}
