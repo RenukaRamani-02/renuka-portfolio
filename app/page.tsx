@@ -92,7 +92,7 @@ export default function Home() {
       Processing and Cyber Security. I enjoy building real-world projects that combine logic,
       creativity, and technology. Through continuous learning and hands-on
       experience, I aim to grow as a skilled developer and contribute to
-      innovative solutions.RENUKA
+      innovative solutions.
     </p>
   </motion.div>
 </motion.section>
