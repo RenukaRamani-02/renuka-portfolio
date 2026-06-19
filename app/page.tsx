@@ -152,7 +152,7 @@ export default function Home() {
     >
       <span className="absolute -left-[33px] top-2 w-4 h-4 rounded-full bg-gradient-to-r from-emerald-400 to-green-500"></span>
       <h3 className="text-xl font-semibold text-emerald-400">
-        B.Tech (3rd Year – Pursuing)
+        B.Tech (4th Year – Pursuing)
       </h3>
       <p className="text-gray-300">
         Currently pursuing B.Tech and building skills through projects.
